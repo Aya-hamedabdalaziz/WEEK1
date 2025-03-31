@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>template 3 pulse quard</title>
+    <!--main  css files-->
+    <link  rel="stylesheet" href="css/imges/normilize.css">
+    <link  rel="stylesheet" href="css/imges/pulse.css">
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<body>
+<!--  start header-->
+  <section>
+<div class="header" id="header">
+<div class="container" id="c">
+<a href="#header"  class="logo"> Pulse guard</a>
+<ul class="main-nav" id="menu" >
+    <i class="fa-solid fa-xmark"  id="x" onclick="hide()"  ></i><br>
+    <li><a href="#">home</a></li>
+    <li><a href="#features"> features</a></li>
+    <li><a href="contact.html">contact us </a></li>
+    
+</ul>
+<i class="fa-solid fa-bars" onclick="show()" id="i"></i>
+</div>
+</div>
+<!--end header-->
+
+<!--  start landing-->
+<div class="landing" id="header">
+    <div class="container">
+    <div class="text">
+        <h1> pulse guard watch</h1>
+        <p>smart watch connected to dedicated app for real-time heart
+            rate monitoring and lifestyle management</p></div>
+        <div class="img"><img  src="imges/huawei-watch-d-design.png"/> </div>
+        </div></div> </section>
+  <!--  end landing-->
+
+
+  <!--  start features-->
+
+    <section id="features">
+
+  <div class="features" id="header">
+    <h2 class="main-title"> features </h2>
+
+    <div class="container">
+        
+    <div class="box">
+<div class="img-holder"> <img src="imges/img3.jfif"></div>
+<h4> Real-Time Heart Rate 
+    </h4>
+<p>  Continuous tracking of heart rate with instant feedback</p>
+<a> more</a>
+        </div>
+
+
+        <div class="box">
+            <div class="img-holder"> <img src="emergency.jfif"></div>
+            <h4> Emergency Alerts
+                .
+                </h4>
+            <p>  Automatic notifications to emergency contacts during critical situations</p>
+            <a> more</a>
+                    </div>
+                    
+
+                    <div class="box">
+                        <div class="img-holder"> <img src="emergency.jfif"></div>
+                        <h4> Personalized Audio Tips
+                           
+                            </h4>
+                        <p>   Real-time guidance based on heart rate</p>
+                        <a> more</a>
+                                </div>
+                               
+
+                                <div class="box">
+                                    <div class="img-holder"> <img src="imges/img3.jfif"></div>
+                                    <h4> Lifestyle Tracking
+                                        
+                                        </h4>
+                                    <p>  Monitors sleep, activity levels, and stress for overall health insights.</p>
+                                    <a> more</a>
+                                            </div>
+                                           
+
+                                            <div class="box">
+                                                <div class="img-holder"> <img src="imges/img3.jfif"></div>
+                                                <h4>Improved Health Management
+                                                   
+                                                    </h4>
+                                                <p>   Track progress and set goals directly via the ap</p>
+                                                <a> more</a>
+                                                        </div>
+                                                        
+                                                        <div class="box">
+                                                            <div class="img-holder"> <img src="imges/img3.jfif"></div>
+                                                            <h4>  Secure Data Storage</h4>
+                                                               
+                                                            <p>  The app ensures safe and centralized storage of health information</p>
+                                                            <a> more</a>
+                                                                    </div>
+                                                                    </div>
+                                                               
+    </div> 
+</section>
+
+
+
+
+<!-- end features-->
+
+<!--  start footer-->
+
+<div class="footer">
+    
+
+    <div class="container">
+        
+    <div class="box">
+
+<h4>pulse guard</h4>
+<div class="social">
+
+    <ul>
+        <li><a href="#">  <i class="fa-brands fa-facebook">  </i></a></li>
+    <li><a href="">     <i class="fa-brands fa-square-instagram"></i></a></li>
+    <li><a href="">   <i class="fa-brands fa-linkedin"></i>   </a></li>
+
+    <li><a href="">  <i class="fa-brands fa-twitter"></i>  </a></li>
+
+    
+    
+    
+    </ul></div>
+<p> @2025 by aya</p>
+</div>
+        </div>
+    </div>
+
+<!--  end footer-->
+
+
+
+
+  <script>
+    var i=document.getElementById("i");
+    var menu =document.getElementById('menu')
+    var h =document.getElementById('header')
+    var x =document.getElementById('x')
+    var c =document.getElementById('c')
+    function show(){
+        c.style.display="block";
+        menu.style.display="grid";
+        menu.style.background="white"
+        menu.style.width="200px"
+
+        menu.style.gridTemplateRows=" 15px 20px 15x "
+         menu.style.height="100vh"
+menu.style.position="fixed"
+menu.style.right="0px"
+menu.style.marginTop="5px"
+i.style.position="absoulte"
+menu.style.zIndex="1"
+i.style.display="none"
+menu.style.opacity="90%"
+    }
+    function hide(){
+c.style.display="flex"
+menu.style.display="none"
+i.style.display="inline"
+h.style.justifyContent="spacebetween"
+
+    }
+
+    </script>
+</body>
+</html>

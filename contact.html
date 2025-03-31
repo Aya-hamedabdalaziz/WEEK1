@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="cssonly.css" />
+
+    <title>Document</title>
+
+    <style></style>
+  </head>
+  <body>
+    <center>
+      <div class="form-container">
+        <h2>contact us</h2>
+        <br /><br /><br />
+
+        <form>
+          <div class="form-group">
+            <div class="label">
+              <label class="name"> first name* </label>
+              <input type="text" id="first-name" name="first-name" />
+            </div>
+            <div class="label">
+              <label class="name"> last name* </label>
+              <input type="text" id="first-name" name="last-name" />
+            </div>
+          </div>
+          <div class="form-email">
+            <div class="label">
+              <label for="email" class="email"> Email Address* <br /></label>
+            </div>
+            <div><input type="email" id="email" name="email" required /></div>
+          </div>
+          <div class="query"><label> your gender* </label> <br /></div>
+
+          <div class="form-radio">
+            <div class="radio">
+              <input
+                type="radio"
+                id="general"
+                name="query-type"
+                value="general"
+              />
+              <label for="general">Male</label>
+            </div>
+            <div class="radio">
+              <input
+                type="radio"
+                id="support"
+                name="query-type"
+                value="support"
+              />
+              <label for="support">female</label>
+            </div>
+          </div>
+          <div class="formm-group">
+            <label for="message" class="block">what are your  deseases?* </label><br />
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <br />
+
+          <div class="checkbox">
+            <input type="checkbox" /><span
+              >i agree t all terms and i will be sincre
+            </span>
+          </div>
+          <br />
+          <br />
+          <button type="submit" class="submit-btn">Submit</button>
+        </form>
+      </div>
+    </center>
+  </body>
+</html>
